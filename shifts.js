@@ -3,6 +3,9 @@ function isValidShift(hours) {
 }
 
 function calculatePay(hours, rate) {
+  if (rate < 0) {
+    throw new Error("Rate cannot be negative");
+  }
   if (hours > 8) {
     const regularPay = 8 * rate;
     const overtimeHours = hours - 8;
