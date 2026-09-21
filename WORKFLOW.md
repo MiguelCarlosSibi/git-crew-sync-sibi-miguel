@@ -19,6 +19,7 @@
 
 ### Task 6: Tag created and pushed
 ![Task 6](screenshots/task6.png)
+![Task 6 - GitHub tag page](screenshots/task6b.png)
 
 ## Reflection Questions
 
